@@ -1,4 +1,4 @@
-package com.gildedrose.cucumber;
+package com.gildedrose;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;

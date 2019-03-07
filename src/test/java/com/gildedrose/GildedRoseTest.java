@@ -6,14 +6,12 @@ import com.tngtech.java.junit.dataprovider.UseDataProvider;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import static com.gildedrose.GildedRose.*;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(DataProviderRunner.class)
 public class GildedRoseTest {
 
-    private final static String SULFURAS = "Sulfuras, Hand of Ragnaros";
-    private final static String AGED_BRIE = "Aged Brie";
-    private final static String BACKSTAGE_PASSES = "Backstage passes to a TAFKAL80ETC concert";
     private final static String FOO = "Foo";
 
     @DataProvider

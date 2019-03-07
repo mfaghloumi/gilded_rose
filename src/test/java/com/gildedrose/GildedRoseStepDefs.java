@@ -1,8 +1,6 @@
-package com.gildedrose.cucumber;
+package com.gildedrose;
 
 
-import com.gildedrose.GildedRose;
-import com.gildedrose.Item;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -31,9 +29,9 @@ public class GildedRoseStepDefs {
 
     @Then("the stock state should be the following")
     public void the_stock_state_should_be_the_following(List<Item> expectedItems) {
-        assertEquals(gildedRose.getItems().length, expectedItems.size());
+        assertEquals(gildedRose.items.length, expectedItems.size());
         for (int i = 0; i < expectedItems.size(); i++) {
-            assertTrue("Issue with element : " + gildedRose.getItems()[i], equals(expectedItems.get(i), gildedRose.getItems()[i]));
+            assertTrue("Issue with element : " + gildedRose.items[i], equals(expectedItems.get(i), gildedRose.items[i]));
         }
     }
 

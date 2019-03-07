@@ -1,4 +1,4 @@
-package com.gildedrose.cucumber.model;
+package com.gildedrose;
 
 import com.gildedrose.Item;
 import cucumber.api.TypeRegistry;
